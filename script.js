@@ -1,13 +1,13 @@
-function ValidarNumero ()
+function ValidarNumero()
 {
+    let numero = document.getElementById('numero').value; //pega o valor digitado pelo usuário no campo de entrada "numero"
+    let mensagem = document.getElementById('mensagem'); //agrega uma mensagem correspondnte a cada desvio condicional
 
-    let numero = document.getElementById("numero").value; //pega o valor digitado pelo usuário no campo de entrada "numero"
-    let mensagem = document.getElementById("mensagem").value; //agrega uma mensagem correspondnte a cada desvio condicional
-
-    if (numero == "") //verifica se o campo de entrada está em branco
+    if (numero === "") //verifica se o campo de entrada está em branco
     {
         mensagem.textContent = "Por favor, insira um número."; //pede para que seja adicionado um valor na caixa de resposta
         mensagem.style.color = "red"; //muda a cor da fonte para vermelho
+        return; //retorna o valor e impede da condição cair no else sem completar as intruções do if
     }
     else 
     {
@@ -32,5 +32,4 @@ function ValidarNumero ()
             mensagem.style.color = "blue" //muda a cor da fonte para azul
         }
     }
-
 }
