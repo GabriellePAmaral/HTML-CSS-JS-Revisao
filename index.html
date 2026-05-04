@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!--define o documento como HTML5-->
+
+<html lang="pt-BR"> <!--define o idioma da página como português do Brasil-->
+
+<link rel="stylesheet" href="style.css"> <!--importa o arquivo CSS-->
+
+    <head> <!--cabeçalho da página-->
+
+        <meta charset="UTF-8"> <!--define a codificação dos caracteres-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ajusta a página para ser responsiva-->
+        <title>Exemplo exercício desvio condicional - Validação Número</title> <!--título exibido na aba do navegador-->
+        
+    </head>
+
+    <body> <!--corpo da página-->
+
+        <div class="container"> <!--container para organizar o conteúdo-->
+            
+            <h1>Validação de Números</h1> <!--título da página-->
+
+            <label> <!--campo de entrada-->
+                Digite um número:
+                <input type="number" id="numero"> <!--imput do tipo número-->
+            </label>
+
+            <button onclick="ValidarNumero()">Validar</button> <!--botão que chama o script em JS-->
+
+            <p id="mensagem"></p> <!--local onde será exibida a mensagem de validação-->
+
+        </div>
+
+        <script src="script.js"></script> <!--importa o arquivo JS-->
+    
+    </body>
+
+</html>

@@ -1,0 +1,34 @@
+/*estilo do  corpo da página*/
+body {font-family: Arial, sans-serif; /*define a fonte*/
+        display: flex; /*organiza os elementos*/
+        justify-content: center; /*centraliza horizontalmente*/
+        align-items: center; /*centraliza verticalmente*/
+        height: 100vh; /*ocupa toda a altura da tela*/
+        background-color: blueviolet;} /*cor de fundo da página*/
+
+/*estilo dp container que envolve o conteúdo*/
+.container {text-align: center; /*centraliza o texto*/
+        padding: 20px; /*espaçamento dentro da div*/
+        background-color: blue; /*cor de fundo do container*/
+        border-radius: 10px; /*bordar arredondadas*/
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);} /*sombra do container*/
+
+/*estilo do campo de entrada*/
+input {padding: 10px; 7 /*espaçamento do campo*/
+        margin-right: 10px; /*espaço à direita*/
+        border: 1px solid #1fa50a;} /*borda do campo*/
+
+/*estilo do botão*/
+button {padding: 10px 20px; /*espaçamento interno (vertical e horizontal*/
+        background-color: chocolate; /*cor de fundo do botão*/
+        color: cornflowerblue; /*cor da fonte do texto*/
+        border: none; /*remove a borda*/
+        border-radius: 5px; /*borda arredondada*/
+        cursor: pointer;} /*muda o cursor ao passar por cima do botão*/
+
+/*estilo do botão quando o mouse passa por cima*/
+button:hover {background-color: tomato;} /*muda a cor de fundo do botão quando o mouse passa por cima*/
+
+/*estilo do parágrafo*/
+p {margin-top: 20px; /*espaço acima do parágrafo*/
+        font-size: 18px;} /*tamanho da fonte*/
